@@ -1,7 +1,9 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 
@@ -21,8 +23,12 @@ class MainActivity : AppCompatActivity() {
         rulesButton = findViewById(R.id.rulesButton)
         rulesButton.text ="Regler"
 
-
+        rulesButton.setOnClickListener {
+            val intent = Intent(this, RulesActivity::class.java)
+            startActivity(intent)
+        }
     }
+
 
 
 
