@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         startButton = findViewById(R.id.startButton)
         startButton.text ="Starta spelet"
         rulesButton = findViewById(R.id.rulesButton)
-        rulesButton.text ="Regler"
+        rulesButton.text ="Spelregler"
 
         rulesButton.setOnClickListener {
             val intent = Intent(this, RulesActivity::class.java)
