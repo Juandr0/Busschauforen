@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
         rulesButton = findViewById(R.id.rulesButton)
         rulesButton.text ="Spelregler"
 
+        startButton.setOnClickListener {
+            val intent = Intent(this, NumOfPlayersActivity::class.java)
+            startActivity(intent)
+        }
+
         rulesButton.setOnClickListener {
             val intent = Intent(this, RulesActivity::class.java)
             startActivity(intent)
