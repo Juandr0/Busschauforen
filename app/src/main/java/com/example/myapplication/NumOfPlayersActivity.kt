@@ -20,7 +20,44 @@ class NumOfPlayersActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.numofplayers_activity)
 
-        //Initierar- och sätter namn på texten samt knapparna för hur många som ska spela
+        initiateView()
+        activateClickListeners()
+    }
+
+
+    //Skapar click listeners som tar användaren vidare till spelet tillsammans med
+    //värdet på "numOfPlayers" som kan vara 1-4 beroende på vilken knapp användaren klickade på.
+    //Detta används i CardgameActivity för att bestämma hur många spelare
+
+    fun activateClickListeners(){
+        onePlayer.setOnClickListener {
+            intent = Intent(this, CardgameActivity::class.java)
+            intent.putExtra("numOfPlayers", 1)
+            startActivity(intent)
+        }
+
+        twoPlayers.setOnClickListener {
+            intent = Intent(this, CardgameActivity::class.java)
+            intent.putExtra("numOfPlayers", 2)
+            startActivity(intent)
+        }
+
+        threePlayers.setOnClickListener {
+            intent = Intent(this, CardgameActivity::class.java)
+            intent.putExtra("numOfPlayers", 3)
+            startActivity(intent)
+        }
+
+        fourPlayers.setOnClickListener {
+            intent = Intent(this, CardgameActivity::class.java)
+            intent.putExtra("numOfPlayers", 4)
+            startActivity(intent)
+        }
+    }
+
+    //Initierar och sätter relevant text på textview och knapparna för hur många som ska spela
+    fun initiateView() {
+
         amountOfPlayers = findViewById(R.id.amountOfPlayersView)
         amountOfPlayers.text = "Hur många ska spela?"
 
@@ -35,7 +72,5 @@ class NumOfPlayersActivity : AppCompatActivity() {
 
         fourPlayers = findViewById(R.id.fourPlayers)
         fourPlayers.text = "Fyra spelare"
-
-
     }
 }
