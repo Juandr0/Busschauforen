@@ -40,9 +40,10 @@ class CardgameActivity : AppCompatActivity() {
         deckOfCards.shuffle()
 
         initiatePlayerScoreViews()
+        initiateCardsOnBoard()
         amountOfPlayers()
         asignCardsToPyramid(deckOfCards)
-        
+
 
     }
 
