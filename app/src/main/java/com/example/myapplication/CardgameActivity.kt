@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
 
 
@@ -88,7 +89,89 @@ class CardgameActivity : AppCompatActivity() {
 
     fun asignCardsToPyramid(cardList : MutableList<Card>){
 
+        //Första raden, 5 kort
+        val firstRowFirstCard = cardList[0]
+        val firstRowSecondCard = cardList[1]
+        val firstRowThirdCard = cardList[2]
+        val firstRowFourthCard = cardList[3]
+        val firstRowFifthCard= cardList[4]
+
+        //Andra raden, 4 kort
+        val secondRowFirstCard = cardList[5]
+        val secondRowSecondCard= cardList[6]
+        val secondRowThirdCard = cardList[7]
+        val secondRowForuthCard= cardList[8]
+
+        //Tredje raden, 3 kort
+        val thirdRowFirstCard = cardList[9]
+        val thirdRowSecondCard = cardList[10]
+        val thirdRowThirdCard = cardList[11]
+
+        //Fjärde raden, 2 kort
+        val fourthRowFirstCard = cardList[12]
+        val fourthRowSecondCard = cardList[13]
+
+        //Fämte raden, 1 kort
+        val fifthRowFirstCard = cardList[14]
+
     }
+
+    fun initiateCardsOnBoard() {
+        //Första raden nedifrån
+        var firstRowFirstCard = findViewById<ImageView>(R.id.firstRowFirstCard)
+        firstRowFirstCard.setOnClickListener {  }
+
+        var firstRowSecondCard = findViewById<ImageView>(R.id.firstRowSecondCard)
+        firstRowSecondCard.setOnClickListener {  }
+
+        var firstRowThirdCard = findViewById<ImageView>(R.id.firstRowThirdCard)
+        firstRowThirdCard.setOnClickListener {  }
+
+        var firstRowFourthCard = findViewById<ImageView>(R.id.firstRowFourthCard)
+        firstRowFourthCard.setOnClickListener {  }
+
+        var firstRowFifthCard = findViewById<ImageView>(R.id.firstRowFifthCard)
+        firstRowFifthCard.setOnClickListener {  }
+
+        //Andra raden nedifrån
+        var secondRowFirstCard = findViewById<ImageView>(R.id.secondRowFirstCard)
+        secondRowFirstCard.setOnClickListener {  }
+
+        var secondRowSecondCard = findViewById<ImageView>(R.id.secondRowSecondCard)
+        secondRowSecondCard.setOnClickListener {  }
+
+        var secondRowThirdCard = findViewById<ImageView>(R.id.secondRowThirdCard)
+        secondRowThirdCard.setOnClickListener {  }
+
+        var secondRowFourthCard = findViewById<ImageView>(R.id.secondRowFourthCard)
+        secondRowFourthCard.setOnClickListener {  }
+
+        //Tredje raden nedifrån
+
+        var thirdRowFirstCard = findViewById<ImageView>(R.id.thirdRowFirstCard)
+        thirdRowFirstCard.setOnClickListener {  }
+
+        var thirdRowSecondCard = findViewById<ImageView>(R.id.thirdRowSecondCard)
+        thirdRowSecondCard.setOnClickListener {  }
+
+        var thirdRowThirdCard = findViewById<ImageView>(R.id.thirdRowThirdCard)
+        thirdRowThirdCard.setOnClickListener {  }
+
+        //Fjärde raden nedifrån
+
+        var fourthRowFirstCard = findViewById<ImageView>(R.id.fourthRowFirstCard)
+        fourthRowFirstCard.setOnClickListener {  }
+
+        var fourthRowSecondCard = findViewById<ImageView>(R.id.fourthRowSecondCard)
+        fourthRowSecondCard.setOnClickListener {  }
+
+        //Femte raden nedifrån
+        var fifthRowFirstCard = findViewById<ImageView>(R.id.fifthRowFirstCard)
+        fifthRowFirstCard.setOnClickListener {  }
+
+    }
+
+
 
     fun initiateDeckOfCards () : MutableList<Card>{
 
