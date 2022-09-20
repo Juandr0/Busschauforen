@@ -5,6 +5,116 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/FourthRowSecondCard"
+        android:layout_width="68dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="23dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/FourthRowFirstCard"
+        app:layout_constraintStart_toEndOf="@+id/FourthRowFirstCard"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/FourthRowFirstCard"
+        android:layout_width="68dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="124dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/ThirdRowFirstCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/fifthRowFirstCard"
+        android:layout_width="63dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="112dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/FourthRowFirstCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/ThirdRowFirstCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="120dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/secondRowFirstCard"
+        app:layout_constraintEnd_toStartOf="@+id/ThirdRowSecondCard"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/ThirdRowThirdCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/ThirdRowFirstCard"
+        app:layout_constraintStart_toEndOf="@+id/ThirdRowSecondCard"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/ThirdRowSecondCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/ThirdRowFirstCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/secondRowFirstCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="116dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/firstRowFirstCard"
+        app:layout_constraintEnd_toStartOf="@+id/secondRowSecondCard"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/secondRowThirdCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/secondRowFirstCard"
+        app:layout_constraintStart_toEndOf="@+id/secondRowSecondCard"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+
+        android:id="@+id/secondRowFourthCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/secondRowFirstCard"
+        app:layout_constraintStart_toEndOf="@+id/secondRowThirdCard"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/secondRowSecondCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/secondRowFirstCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cardback" />
+
     <TextView
         android:id="@+id/counterOne"
         android:layout_width="wrap_content"
@@ -44,4 +154,60 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/firstRowFirstCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="68dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/firstRowSecondCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/firstRowFirstCard"
+        app:layout_constraintEnd_toStartOf="@+id/firstRowThirdCard"
+        app:layout_constraintStart_toEndOf="@+id/firstRowFirstCard"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/firstRowFourthCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/firstRowThirdCard"
+        app:layout_constraintEnd_toStartOf="@+id/firstRowFifthCard"
+        app:layout_constraintStart_toEndOf="@+id/firstRowThirdCard"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/firstRowFifthCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/firstRowFourthCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/cardback" />
+
+    <ImageView
+        android:id="@+id/firstRowThirdCard"
+        android:layout_width="66dp"
+        android:layout_height="106dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/firstRowSecondCard"
+        app:layout_constraintEnd_toEndOf="@+id/firstRowFifthCard"
+        app:layout_constraintStart_toStartOf="@+id/firstRowFirstCard"
+        app:srcCompat="@drawable/cardback" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
