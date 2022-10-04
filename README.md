@@ -1,7 +1,3 @@
-[url=https://postimg.cc/FYVc1RJx][img]https://i.postimg.cc/FYVc1RJx/Screenshot-20221004-142339.png[/img][/url]
-
-
-[url=https://postimg.cc/mztFdypd][img]https://i.postimg.cc/mztFdypd/Screenshot-20221004-142643.png[/img][/url]
-
-
-[url=https://postimg.cc/xkszy45J][img]https://i.postimg.cc/xkszy45J/Screenshot-20221004-142626.png[/img][/url]
+![Screenshot_20221004_142339](https://user-images.githubusercontent.com/47304533/193820674-46cb71bd-ba23-4569-92d0-29abd70c0150.png)
+![Screenshot_20221004_142643](https://user-images.githubusercontent.com/47304533/193820677-a173a3cc-8fec-45f1-b579-46214b33b3f1.png)
+![Screenshot_20221004_142626](https://user-images.githubusercontent.com/47304533/193820694-427f6c13-9a97-49b9-b90d-781ed6fdb283.png)
